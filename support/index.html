@@ -3,25 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Walk Your Way Support</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    :root {
+      --background: #f6f3ea;
+      --card: #ffffff;
+      --text: #2f3b32;
+      --accent: #7ca982;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.7);
+      padding: 42px;
+      border-radius: 28px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-top: 0;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 28px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Walk Your Way Support</h1>
 
-  <p>
-    Need help, found a bug, or have a question or suggestion?
-  </p>
+  <div class="container">
 
-  <p>
-    Contact us at:
-    <a href="mailto:support@walkyourway.app">
-      support@walkyourway.app
+    <a class="back-link" href="/">
+      ← Back to Walk Your Way
     </a>
-  </p>
 
-  <p>
-    Walk Your Way is designed to support flexible, accessible walking experiences
-    without pressure, streaks, or judgment.
-  </p>
+    <div class="card">
+
+      <h1>Support</h1>
+
+      <p>
+        Need help, found a bug,
+        or have a question or suggestion?
+      </p>
+
+      <p>
+        Contact us at:
+        <a href="mailto:support@walkyourway.app">
+          support@walkyourway.app
+        </a>
+      </p>
+
+      <p>
+        Walk Your Way is designed to support flexible,
+        accessible walking experiences without pressure,
+        streaks, or judgment.
+      </p>
+
+    </div>
+
+  </div>
+
 </body>
 </html>
